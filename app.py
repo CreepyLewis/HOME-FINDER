@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 from functools import wraps
 from werkzeug.utils import secure_filename
 
-
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "change-me-in-production-please")
 
